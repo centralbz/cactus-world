@@ -1,5 +1,5 @@
-/* Stil für das Dropdown-Menü */
-.dropdown {
+ /* Stil für das Dropdown-Menü */
+ .dropdown {
     position: relative;
     display: inline-block;
 }
@@ -39,12 +39,4 @@
 /* Zeige die Dropdown-Liste, wenn der Auslöser angeklickt wird */
 .dropdown:hover .dropdown-content {
     display: block;
-}
-
-
-
-.dropbtn {
-
-    color: black;
-    size: 10px;
 }
