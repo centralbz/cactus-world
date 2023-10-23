@@ -1,0 +1,42 @@
+/* Stil für das Dropdown-Menü */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Stil für den Auslöser des Dropdowns */
+.dropdown-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Stil für die Dropdown-Liste */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Stil für die einzelnen Elemente in der Dropdown-Liste */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Stil für die Elemente beim Hovern (Überfahren) */
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+/* Zeige die Dropdown-Liste, wenn der Auslöser angeklickt wird */
+.dropdown:hover .dropdown-content {
+    display: block;
+}

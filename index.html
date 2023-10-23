@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="Author" content="Alexander Sachsenhofer, Daniel Nimmervoll und Maximilian Steinkellner">
     <title>Homepage</title>
+    <link rel="stylesheet" href="./Homepage.css">
 </head>
 <style>
     body {
@@ -67,12 +69,19 @@
 </head>
 <body>
 <header>
-    <h1>Prototyp</h1>
+    <img src="./Travis_Design.jpg"> 
 </header>
 <nav>
     <a href="./Homepage.html">Home</a>
     <a href="./Tickets.html">Medien</a>
-    <a href="./Medien.html">Medien</a>
+    <div class="dropdown">
+        <button class="dropbtn">Medien</button>
+        <div class="dropdown-content">
+          <a href="./musik.html">Musik</a>
+          <a href="./social_media.html">Streams</a>
+          <a href="./streams.html">Social Media</a>
+        </div>
+      </div> 
     <a href="./Bekleidung.html">Bekleidung</a>
     <a href="./Bilder.html">Bilder</a>
 </nav>
