@@ -45,7 +45,10 @@
 .content{
     margin-top: 1em;
     margin-bottom: 1em;
-    margin-left: 20.8em;
-    margin-right: 22em;
+    margin-left: 20em;
+    margin-right: 20em;
     background-color: #696969;
+    margin: auto;
+    width: 90%;
+        
 }
