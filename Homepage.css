@@ -2,7 +2,7 @@
  /* Stil für das Dropdown-Menü */
  .dropdown {
     position: relative;
-    display: inline-block;
+    width="1200" height="240";
 }
 
 /* Stil für den Auslöser des Dropdowns */
