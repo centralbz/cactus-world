@@ -40,3 +40,11 @@
 .dropdown:hover .dropdown-content {
     display: block;
 }
+
+.content{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 5em;
+    margin-right: 5em;
+    background-color: #696969;
+}
