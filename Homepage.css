@@ -2,7 +2,8 @@
  /* Stil für das Dropdown-Menü */
  .dropdown {
     position: relative;
-    
+    width: 1200;
+    height: 240;
 }
 
 /* Stil für den Auslöser des Dropdowns */
@@ -49,6 +50,8 @@
     margin-right: 21em;
     background-color: #696969;
     margin: auto;
-    width: 64%;
+    width: 64.8%;
+    width: 1200;
+    height: 240;
         
 }
