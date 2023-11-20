@@ -58,15 +58,16 @@
 
 .header_img{
     margin: 0px;
-    width: 2000px;
-    height: 1203px;
+    height: 240px;
+    width: 100%;
     display: flex;
     justify-content: center;
     background-image: url('./Travis_Design.jpg');
-
-
+    background-position: center;
 }
 
 .navbar{
-    margin: 0px;
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
 }
