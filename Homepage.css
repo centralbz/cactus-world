@@ -55,3 +55,18 @@
     height: 100%;
     
 }
+
+.header_img{
+    margin: 0px;
+    width: 2000px;
+    height: 1203px;
+    display: flex;
+    justify-content: center;
+    background-image: url('./Travis_Design.jpg');
+
+
+}
+
+.navbar{
+    margin: 0px;
+}
