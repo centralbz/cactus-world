@@ -66,12 +66,17 @@
             font-size: 18px;
             cursor: url('data:image/x-icon;base64,AAACAAEAICAQAAAAAADoAgAAFgAAACgAAAAgAAAAQAAAAAEABAAAAAAAAAIAAAAAAAAAAAAAEAAAAAAAAAAAAAAA////AAAA/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAESIhAAAAAAAAAAAAAAAAABIRIQAAAAAAAAAAAAAAAAAREhEQAAAAAAAAAAAAAAAAASESEAAAAAAAAAAAAAAAAAESIRAAAAAAAAAAAAAAAAABEREAAAAAAAAAAAAAAAAAASIhAAAAAAAAAAAAAAAAAAEhIQAAAAAAAAAAAAAAAAABEREAAAAAAAAAAAAAAAAAARIRAAAAAAAAAAAAAAAAAAESEQAAAAAAAAAAAAAAAAABIiEAAAAAAAAAAAAAAAAAARIRAAAAAAAAAAAAAAERERERERERAAAAAAAAAAASISEhEiESEhAAAAAAAAAAISEiISEREhIQAAAAAAAAABEhISEhERIhEAAAAAAAAAASIhIREiESEhAAAAAAAAAAAREREREREREAAAAAAAAAAAAAAAEhIQAAAAAAAAAAAAAAAAABIiEAAAAAAAAAAAAAAAAAASEhAAAAAAAAAAAAAAAAAAESEQAAAAAAAAAAAAAAAAABEREAAAAAAAAAAAAAAAAAASIhAAAAAAAAAAAAAAAAAAEhEQAAAAAAAAAAAAAAAAABIREAAAAAAAAAAAAAAAAAESIhEAAAAAAAAAAAAAAAASERESEAAAAAAAAAAAAAABIQEhASEAAAAAAAAAAAAAEhABIQASEAAAAAAAAAAAABEAASEAARAAAAAAAAAAD8D////A////wH///+B////gf///4P///+D////g////4P///+D////g////4P///+D///gAD//wAAf/8AAH//AAB//wAAf/+AAP///g////4P///+D////g////4P///+D////g////4P///8B///+AP///ER///jGP//5xz//w=='), auto;
         }
+        body {
+        zoom: reset; /* Setzt den Zoom auf den Standardwert zurück */
+        touch-action: manipulation; /* Verhindert das Doppelklicken zum Zoomen auf Touch-Geräten */
+        }
+
         
         
         
 </style>
 </head>
-<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
 <div class="content">
     <header>
@@ -82,7 +87,7 @@
     
     <div class="navbar">
         <nav>
-             <a href="./index.html"> <img src="Icons/home.png" height="10" width="10">Home</a>
+             <a href="./index.html"> <img src="Icons/home.jpg" height="100" width="100">Home</a>
             <a href="./Tickets.html">Tickets</a>
             <a href="./Bekleidung.html">Bekleidung</a>
             <a href="./Bilder.html">Bilder</a>
