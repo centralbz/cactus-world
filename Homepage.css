@@ -82,3 +82,6 @@ img {
     width: 2em;
     height: 1em;
 }
+.buttons{
+    border-radius: 10px;
+}
