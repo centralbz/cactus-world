@@ -76,3 +76,75 @@
 .buttons{
     padding: 20px 14px;
 } 
+
+.test{
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1E1E1E;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+     cursor:url('./cursor.cur'), auto;
+}
+
+header {
+    background-image: url('travis-scott-banner.jpg');
+    background-size: cover;
+    height: 240px;
+    text-align: center;
+    background-repeat: no-repeat;
+    
+    cursor: url('./cursor.cur'), auto;
+}
+h1 {
+    font-size: 36px;
+    padding-top: 100px;
+    cursor: url('./cursor.cur'), auto;
+}
+nav {
+    width: 100vw;
+    background-color: #000000;
+    text-align: center;.disable-zoom {
+    touch-action: manipulation; 
+    }
+    cursor: url('./cursor.cur'), auto;
+}
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    cursor: url('./cursor.cur'), auto;
+}
+nav a:hover {
+    background-color: #1E1E1E;
+    cursor: url('./cursor.cur'), auto;
+}
+section {
+    padding: 20px;
+    cursor: url('./cursor.cur'), auto;
+}
+.container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        cursor: url('./cursor.cur'), auto;
+}
+h1 {
+        font-size: 36px;
+        cursor: url('./cursor.cur'), auto;
+}
+p {
+        font-size: 18px;
+        cursor: url('./cursor.cur'), auto;
+}
+body {
+    zoom: reset; 
+    touch-action: manipulation; 
+}
