@@ -92,6 +92,7 @@ body {
     margin: 0;
     padding: 0;
      cursor:url('./cursor.cur'), auto;
+    touch-action: none;
 }
 
 header {
@@ -149,3 +150,6 @@ body {
     touch-action: manipulation; 
 }
 
+.bio{
+    zoom: normal;
+}
