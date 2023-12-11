@@ -58,7 +58,6 @@
 
 .header_img{
     max-width: 100%;
-    height: auto;
     height: 240px;
     background-image: url('./Travis_Design.jpg');
     
@@ -77,9 +76,3 @@
 .buttons{
     padding: 20px 14px;
 } 
-
-.container{
-    input[type="text"], textarea {
-        font-size: 16px; /* Beispielgröße, passe dies entsprechend an */
-      }
-}
