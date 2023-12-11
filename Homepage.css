@@ -57,15 +57,11 @@
 }
 
 .header_img{
-    margin: 0px;
+    zoom: normal;
     height: 240px;
     width: 100%;
-    display: flex;
-    justify-content: center;
     background-image: url('./Travis_Design.jpg');
-    background-position: center;
-    pointer-events: none; 
-    max-width: 100%; 
+    
 }
 
 .navbar{
