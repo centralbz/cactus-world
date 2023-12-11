@@ -97,24 +97,42 @@
     <header>
         <img src="./Travis_Design.jpg"> 
     </header>
-    <nav  width="1200" height="240">
-        <a href="./index.html"> <img id="home" src="Icons/Home.jpg"></a>
-        <a href="./Tickets.html">Tickets</a>
-        <a href="./Bekleidung.html">Bekleidung</a>
-        <a href="./Bilder.html">Bilder</a>
-        <div class="dropdown">
-            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-              Medien
+    <div class="navbar">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Homepage</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
-            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-              <li><a class="dropdown-item" href="./musik.html">Musik</a></li>
-              <li><a class="dropdown-item" href="./social_media.html">Social Media</a></li>
-              <li><a class="dropdown-item" href="./streams.html">Streams</a></li>
-            </ul>
-          </div>
-        </div> 
-        
-    </nav>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Tickets.html">Tickets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Bekleidung.html">Bekleidung</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./Bilder.html">Bilder</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Medien
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="./musik.html">Musik</a></li>
+                            <li><a class="dropdown-item" href="./social_media.html">Social Media</a></li>
+                            <li><a class="dropdown-item" href="./streams.html">Streams</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
     <table id="kleidung">
 
     <tr>
