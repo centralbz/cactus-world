@@ -57,9 +57,9 @@
 }
 
 .header_img{
-    zoom: normal;
+    max-width: 100%;
+    height: auto;
     height: 240px;
-    width: 100%;
     background-image: url('./Travis_Design.jpg');
     
 }
@@ -69,10 +69,6 @@
     padding: 0%;
     width: 100%;
 }
-img {
-    pointer-events: none; 
-    max-width: 100%; 
-  }
   
 #home{
     width: 70.2px;
@@ -81,3 +77,9 @@ img {
 .buttons{
     padding: 20px 14px;
 } 
+
+.container{
+    input[type="text"], textarea {
+        font-size: 16px; /* Beispielgröße, passe dies entsprechend an */
+      }
+}
