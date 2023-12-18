@@ -2145,4 +2145,5 @@ header {
 }
 .navbar {
   text-align: center;
+  width: max-content;
 }
