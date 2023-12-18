@@ -2142,9 +2142,10 @@ header {
 }
 
 .dropdown-content a:hover {
-    background-color: #333;
+    background-color: white;
 }
 .navbar {
   text-align: center;
   width: max-content;
 }
+
