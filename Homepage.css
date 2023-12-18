@@ -2143,4 +2143,40 @@ header {
 .dropdown-content a:hover {
     background-color: #333;
 }
+.navbar {
+  text-align: center;
+}
+
+.navbar .container {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-brand {
+  cursor: default; /* Verhindert, dass der Cursor beim Klick auf "Home" zur Hand wird */
+}
+
+.nav-link {
+  padding: 0.5rem 1rem;
+  color: #FFFFFF;
+  text-decoration: none;
+  cursor: default; /* Verhindert, dass der Cursor zur Hand wird */
+}
+
+.nav-link:hover {
+  background-color: #343a40; /* Hintergrundfarbe beim Überfahren */
+}
+
+.dropdown-menu {
+  background-color: #343a40;
+}
+
+.dropdown-item {
+  color: #FFFFFF;
+}
+
+.dropdown-item:hover {
+  background-color: #23272b; /* Hintergrundfarbe beim Überfahren */
+}
+
 
