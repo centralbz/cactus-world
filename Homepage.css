@@ -2145,6 +2145,5 @@ header {
 }
 .navbar {
   text-align: center;
- 
-  margin-top: ;
+  width: max-content;
 }
