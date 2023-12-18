@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Funktion, die das Passwort überprüft
+        function checkPassword() {
+            // Hier sollte die tatsächliche Überprüfung des Passworts erfolgen
+            var enteredPassword = prompt("Bitte geben Sie das Passwort ein:");
+    
+            // Beispiel: Überprüfung auf ein festgelegtes Passwort "geheim"
+            if (enteredPassword === "geheim") {
+                // Weiterleitung zur anderen Seite
+                window.location.href = "andere_seite.html";
+            } else {
+                alert("Falsches Passwort. Zugriff verweigert.");
+            }
+        }
+    
+        // Die Funktion wird beim Laden der Seite aufgerufen
+        window.onload = function() {
+            checkPassword();
+        };
+    </script>
+</body>
+</html>
