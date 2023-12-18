@@ -2100,6 +2100,7 @@ header {
 .navbar {
     background-color: black;
     text-align: center;
+    width: 1200px;
 }
 
 .navbar ul {
