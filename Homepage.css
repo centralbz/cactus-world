@@ -67,3 +67,7 @@ nav ul li a {
     height: 901.58;
 }
 
+.container {
+    display: flex;
+    align-items: center;
+  }

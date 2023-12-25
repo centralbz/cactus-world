@@ -66,7 +66,6 @@ hr{
 
 
 .hero-container{
-   /* background-video: */
     display: flex; 
     justify-content: center;
     align-items: center;
@@ -242,5 +241,13 @@ footer{
 
 .Geschichte{
     font-family:'Courier New', Courier, monospace;
+
+}
+
+.rechts{
+  margin-left: 250px;
+  margin-top: -230px;
+  font-family:'Courier New', Courier, monospace;
+  color: white;
 }
 
