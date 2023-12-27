@@ -141,7 +141,7 @@ hr{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.65); /* Adjusting the overlay color and opacity as needed */
+    background-color: rgba(0, 0, 0, 0.65); 
     z-index: 1;
   }
   
@@ -194,7 +194,7 @@ li{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Adjusting the opacity as needed */
+    background-color: rgba(0, 0, 0, 0.6);
   }
   
   .carousel-item img {
@@ -237,17 +237,5 @@ footer{
 
 .news{
   filter: grayscale(1);
-}
-
-.Geschichte{
-    font-family:'Courier New', Courier, monospace;
-
-}
-
-.rechts{
-  margin-left: 250px;
-  margin-top: -230px;
-  font-family:'Courier New', Courier, monospace;
-  color: white;
 }
 
