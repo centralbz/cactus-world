@@ -774,3 +774,17 @@ font-size: 100%;
 text-underline-offset: 20;
 }
 
+#discord{
+  color: white;
+  font-style: none;
+}
+
+#termsandimprint{
+  color: white;
+  font-style: none;
+  list-style: none;
+}
+
+#support ul a li{
+  background-color: blue;
+}

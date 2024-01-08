@@ -602,3 +602,17 @@ ul li:hover{
   width: fit-content;
 }
 
+#discord{
+  color: white;
+  font-style: none;
+}
+
+#termsandimprint{
+  color: white;
+  font-style: none;
+  list-style: none;
+}
+
+#support ul a li{
+  background-color: blue;
+}
